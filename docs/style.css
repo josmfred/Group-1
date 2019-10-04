@@ -1,0 +1,73 @@
+body {
+    line-height: 1.4;
+    color: #bbbbbb;
+    background-color: #111111;
+    text-align: center;
+}
+
+div#content {
+    background-color: #222222;
+    max-width: 1000px;
+    margin: 50px auto;
+    box-shadow: 10px 10px 10px #050505;
+}
+
+div#main_title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div#subtext {
+    font-size: 25px;
+    font-style: italic;
+}
+
+div#pizza {
+    font-size: 14px;
+}
+
+div#project {
+    font-size: 14px;
+}
+
+div#fineprint {
+    font-size: 12px;
+    color: #444444;
+}
+
+div.images {
+    /* width messes with everything, don't include it here (probably...) */
+    margin: 10px auto;
+}
+
+img {
+    /* 
+    What small images.
+    The only real reason for this being for all imgs right now is brevity.
+    If we ever add more images, it'll get moved into each img directly.
+    */
+    width: 140px;
+    height: 160px;
+}
+
+a {
+    color: #2c86d4;
+}
+
+div.person {
+    display: inline-block;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #292929;
+    background-color: #303030;
+    width: 145px;
+    margin: 2px;
+}
+
+div.person .div {
+    font-size: 14px;
+}
+
+.title {
+    font-style: italic
+}
